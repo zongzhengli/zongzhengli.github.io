@@ -1,7 +1,7 @@
 body {
     background-color: #f9f9f9;
     overflow-x: hidden;
-    margin-left: 150px;
+    margin-left: 120px;
     margin-bottom: 100px;
 }
 
@@ -10,8 +10,8 @@ h1 {
     color: #444444;
     font-family: 'Montserrat', sans-serif;
     font-size: 200px;
-    margin-left: -110px;
-    height: 80px;
+    margin-left: -80px;
+    height: 100px;
 }
 
 img {
