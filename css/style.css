@@ -6,7 +6,7 @@ body {
 h1 {
     white-space: nowrap;
     color: #444444;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Ubuntu Mono', monospace;
     font-size: 50px;
     margin-left: 150px;
     margin-bottom: 20px;
@@ -14,8 +14,14 @@ h1 {
 
 a {
     color: #444444;
-    font-family: 'Roboto', sans-serif;
-    font-size: 14px;
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 16px;
+}
+
+p {
+    color: #444444;
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 16px;
 }
 
 div.navbar {
@@ -52,6 +58,6 @@ div.content > img {
 }
 
 div.about {
-    margin-top: 30px;
+    margin-top: 50px;
     margin-left: 150px;
 }
