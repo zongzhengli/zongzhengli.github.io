@@ -19,6 +19,7 @@ a {
 }
 
 div.navbar {
+    margin-top: 10px;
     margin-left: 150px;
     margin-bottom: 0px;
 }
@@ -44,13 +45,10 @@ div.margin a {
     margin-right: 30px;
 }
 
-div.content {
-    overflow: hidden;
-}
-
 div.content > img {
-    display: block;
     margin-bottom: 50px;
+    padding-right: 50px;
+    max-width: 100%;
 }
 
 div.about {
