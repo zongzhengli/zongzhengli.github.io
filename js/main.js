@@ -1,8 +1,8 @@
 $(function() {
     $('.start-hidden').each(function() {
-        var dx = 70 * (Math.random() - 0.5);
-        var dy = 70 * (Math.random() - 0.5);
-        var dz = 70 * (Math.random() - 0.5);
+        var dx = 30 * (Math.random() - 0.5);
+        var dy = 30 * (Math.random() - 0.3);
+        var dz = 30 * (Math.random() - 0.5);
         var du = 70 * (Math.random() - 0.5);
         var dv = 70 * (Math.random() - 0.5);
         var dw = 70 * (Math.random() - 0.5);
