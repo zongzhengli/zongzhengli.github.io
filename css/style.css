@@ -100,11 +100,6 @@ div.thumb > a.thumb-container {
 div.thumb > a.thumb-container > img {
     border: 8px solid white;
     border-image: url('../img/corners.png') 34% repeat;
-    -webkit-transition: all .3s ease-in-out;
-    -moz-transition: all .3s ease-in-out;
-    -o-transition: all .3s ease-in-out;
-    -ms-transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out;
 }
 
 div.thumb > a.thumb-container > img:hover {
