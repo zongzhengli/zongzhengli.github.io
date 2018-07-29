@@ -6,7 +6,7 @@ $(function() {
         var du = 70 * (Math.random() - 0.5);
         var dv = 70 * (Math.random() - 0.5);
         var dw = 70 * (Math.random() - 0.5);
-        $(this).animate({opacity: 1}, {
+        $(this).animate({"data-animate": 1}, {
             step: function (now, fx) {
                 var x = dx * (1 - now);
                 var y = dy * (1 - now);
@@ -20,7 +20,7 @@ $(function() {
                     'rotateX(' + u + 'deg) rotateY(' + v + 'deg) rotateY(' + w + 'deg)',
                 });
             },
-            duration: 1000,
+            duration: 2000,
             easing: 'easeOutCubic',
             queue: false,
             complete: function () {},
